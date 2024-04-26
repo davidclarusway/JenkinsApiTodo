@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Clarusway/IdeaProjects/CWApiProject/src/test/java/todo_test">
+        <classes>
+            <class name="todo_test.C01_CreateTodo">
+                <methods>
+                    <include name="postRequestTest"/>
+                </methods>
+            </class>
+            <class name="todo_test.C02_GetTodo">
+                <methods>
+                    <include name="postRequestTest"/>
+                </methods>
+            </class>
+            <class name="todo_test.C03_UpdateTodo">
+                <methods>
+                    <include name="postRequestTest"/>
+                </methods>
+            </class>
+            <class name="todo_test.C04_DeleteTodo">
+                <methods>
+                    <include name="postRequestTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
